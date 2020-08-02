@@ -192,14 +192,14 @@ class Player:
     @property
     def MP(self):
         try:
-            return self.get_skill('HP')
+            return self.get_skill('MP')
         except SkillNotExistError:
-            self.update_skill({'HP': self.maxMP})
-            return self.get_skill('HP')
+            self.update_skill({'MP': self.maxMP})
+            return self.get_skill('MP')
 
     @MP.setter
     def MP(self, value):
-        self.update_skill({'HP': value})
+        self.update_skill({'MP': value})
 
     @property
     def maxHP(self):
