@@ -1,6 +1,9 @@
 基于 [nonebot](https://github.com/nonebot/nonebot) 的COC跑团机器人“骰鹿”。
 
-由于酷Q被封，本项目已停止维护。
+---
+
+## 2020.10.19更新
+借由 [CQHTTP Mirai](https://github.com/yyuueexxiinngg/cqhttp-mirai) ，本项目可以原封不动地在 [mirai](https://github.com/mamoe/mirai) 平台上继续运行。感谢无论是为酷Q还是mirai贡献过的开发者们。
 
 ---
 
