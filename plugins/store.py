@@ -19,7 +19,7 @@ async def store(session: CommandSession):
 
 @store.args_parser
 async def _(session: CommandSession):
-    lines = session.current_arg_text.strip('\n').split('\n')
+    lines = session.current_arg_text.replace('\r', '\n').strip('\n').split('\n')
 
     if not await perm.check_permission(session.bot, session.ctx, perm.GROUP):
         session.finish('只能在群聊中设置！')
