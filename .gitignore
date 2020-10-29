@@ -1,6 +1,9 @@
 # Pycharm enviroments
 .idea/
 
+# config file
+config.py
+
 # program data
 data/
 
